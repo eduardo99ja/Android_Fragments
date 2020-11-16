@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/iconfinder_home_house_real_estate_392500"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_altas"
+            android:icon="@drawable/iconfinder_add_728898"
+            android:title="@string/menu_altas" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/iconfinder_67_111124"
+            android:title="@string/menu_buscar" />
+        <item
+            android:id="@+id/nav_modificar"
+            android:icon="@drawable/iconfinder_website___pencil_3440848"
+            android:title="@string/menu_modificar" />
+        <item
+            android:id="@+id/nav_eliminarr"
+            android:icon="@drawable/iconfinder_cross_24_103181"
+            android:title="@string/menu_eliminar" />
+        <item
+            android:id="@+id/nav_listar_activos"
+            android:icon="@drawable/iconfinder_list_checklists_note_to_do_3209305"
+            android:title="@string/menu_listar_activos" />
+        <item
+            android:id="@+id/nav_listar_inactivos"
+            android:icon="@drawable/iconfinder_list_checklists_note_to_do_3209305"
+            android:title="@string/menu_listar_inactivos" />
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@drawable/iconfinder_seo_32_2588788"
+            android:title="@string/menu_creditos" />
+
+    </group>
+</menu>

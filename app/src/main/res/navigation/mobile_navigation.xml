@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.eduardo.dm_t2_2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_altas"
+        android:name="com.eduardo.dm_t2_2.ui.altas.AltasFragment"
+        android:label="@string/menu_altas"
+        tools:layout="@layout/fragment_altas" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.eduardo.dm_t2_2.ui.buscar.BuscarFragment"
+        android:label="@string/menu_buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/nav_modificar"
+        android:name="com.eduardo.dm_t2_2.ui.modificar.Modificar"
+        android:label="@string/menu_modificar"
+        tools:layout="@layout/fragment_modificar" />
+    <fragment
+        android:id="@+id/nav_eliminarr"
+        android:name="com.eduardo.dm_t2_2.ui.eliminar.Eliminar"
+        android:label="@string/menu_eliminar"
+        tools:layout="@layout/fragment_eliminar" />
+    <fragment
+        android:id="@+id/nav_listar_activos"
+        android:name="com.eduardo.dm_t2_2.ui.listarActivos.ListarActivos"
+        android:label="@string/menu_listar_activos"
+        tools:layout="@layout/fragment_listar_activos" />
+    <fragment
+        android:id="@+id/nav_listar_inactivos"
+        android:name="com.eduardo.dm_t2_2.ui.listarInactivos.ListarInactivos"
+        android:label="@string/menu_listar_inactivos"
+        tools:layout="@layout/fragment_listar_inactivos"/>
+    <fragment
+        android:id="@+id/nav_creditos"
+        android:name="com.eduardo.dm_t2_2.ui.creditos.CreditosFragment"
+        android:label="@string/menu_creditos"
+        tools:layout="@layout/creditos_fragment"/>
+</navigation>

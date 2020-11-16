@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>Seleccione tipo destino</item>
+        <item>Nacional</item>
+        <item>Internacional</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Seleccione el status</item>
+        <item>Activo</item>
+        <item>Inactivo</item>
+    </string-array>
+
+
+</resources>
